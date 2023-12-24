@@ -3,7 +3,7 @@
 .gallery-section{
     min-height: 160vh;
     width: 100%;
-    background: linear-gradient(0deg, white,black, black, black);
+    background: linear-gradient(0deg, white,#020a1f, #020a1f, #020a1f);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,7 @@
     padding: 5px 10px;
 }
 .gallery-head span{
-    color: black;
+    color:  #020a1f;
 }
 
 
@@ -36,6 +36,7 @@
     overflow: hidden;
     width: 90%;
     transition: 0.4s ease-in-out;
+    border-radius: 40px;
 }
 .gallery-image{
     width: 100%;
@@ -51,7 +52,7 @@
     padding: 5px;
     margin: 5px;
     font-size: 20px;
-    background: rgb(0, 0, 0);
+    background: #020a1f;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     opacity: 0;
