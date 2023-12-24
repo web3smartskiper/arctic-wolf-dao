@@ -10,7 +10,7 @@ html{
 
 body{
     font-family: 'Comfortaa';
-    background: #011850;
+    background: #020a1f;
     color: white;
 }
 
@@ -29,18 +29,18 @@ body{
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-    background: black;
+    background: #01113a;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .loader {
-    border: 10px dashed rgb(0, 0, 0);
+    border: 10px dashed #01113a;
     border-top: 10px solid rgb(255, 255, 255); 
     border-bottom: 10px solid rgb(255, 255, 255); 
     border-radius: 50%;
     font-size: 25px;
-    color: rgb(0, 0, 0);
+    color: #f3f4f7;
     font-family: 'Squada One';
     text-transform: uppercase;
     display: flex;
@@ -86,7 +86,7 @@ body{
 }
 .navigation-items{
     font-size: 16px;
-    color: black;
+    color: #011850;
     text-decoration: none;
     transition: 0.4s ease-in-out;
 }
@@ -192,7 +192,7 @@ body{
 
 /* cover------------------------------ */
 .cover-section{
-    background: url('/images/cover_1.webp');
+    background: url('/images/cover_1-removebg-preview.png');
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
