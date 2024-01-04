@@ -10,7 +10,7 @@ html{
 
 body{
     font-family: 'Comfortaa';
-    background: #020a1f;
+    background: #000000;
     color: white;
 }
 
@@ -29,7 +29,7 @@ body{
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-    background: #020a1f;
+    background: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +86,7 @@ body{
 }
 .navigation-items{
     font-size: 16px;
-    color: #011850;
+    color: #161616;
     text-decoration: none;
     transition: 0.4s ease-in-out;
 }
@@ -192,7 +192,7 @@ body{
 
 /* cover------------------------------ */
 .cover-section{
-    background: url('/images/cover_1-removebg-preview.png');
+    background: url('/images/background.png');
     background-size: cover;
     background-position: right;
     background-attachment: fixed;
@@ -214,13 +214,13 @@ body{
     animation-delay: 0.5s;
 }
 .cover-heading span{
-    color: rgb(100, 100, 100);
+    color: rgb(207, 200, 200);
 }
 .cover-content{
     font-size: 24px;
     font-family: 'Architects Daughter';
     margin-left: 100px;
-    color: rgb(180, 180, 180);
+    color: rgb(255, 255, 255);
 }
 .cover-right{
     flex: 1;
@@ -296,21 +296,21 @@ body{
 }
 .left-intro-section{
     flex:1;
-    background: url('/images/Untitled_design-removebg-preview.png');
+    background: url('/images/Untitled\ design\ \(1\).jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .right-intro-section{
     flex:2;
-    background: #020a1f;
+    background: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .intro-box{
     text-align: center;
-    background: #283042;
+    background: #282829;
     width: 45vw;
     height: 60%;
     border-radius: 15px;
@@ -360,10 +360,10 @@ body{
         flex: 0;
     }
     .right-intro-section{
-        background: url('/images/Untitled_design-removebg-preview.png');
+        background: url('/images/Untitled\ design\ \(1\).jpg');
     }
     .intro-box{
-        background: #283042;
+        background: #282829;
         width: 80%;
         height: 70%;
     }
@@ -402,7 +402,7 @@ body{
 .about-us{
     height: 70vh;
     width: 100%;
-    background: #020a1f;
+    background: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -410,7 +410,7 @@ body{
 .about-us-block{
     width: 80%;
     height: 80%;
-    background: #283042;
+    background: #282829;
     border-radius: 10px;
 }
 .about-us-head{
@@ -426,7 +426,7 @@ body{
     border-radius: 15px;
 }
 .about-us-head span{
-    color:#020a1f;
+    color:#000000;
 }
 .about-us-content{
     font-size: 20px;
@@ -440,7 +440,7 @@ body{
 .services{
     height: 70vh;
     width: 100%;
-    background: #020a1f;
+    background: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -448,7 +448,7 @@ body{
 .services-block{
     width: 80%;
     height: 80%;
-    background: #283042;
+    background: #282829;
     border-radius: 10px;
 }
 .services-head{
@@ -463,7 +463,7 @@ body{
     border-radius: 15px;
 }
 .services-head span{
-    color:#020a1f;
+    color:#000000;
 }
 .services-content{
     font-size: 18px;
@@ -545,7 +545,7 @@ body{
     height: 100%;
 }
 .f-s{
-    color: #020a1f;
+    color: #000000;
     font-size: 26px;
     background: white;
     border-radius: 40%;

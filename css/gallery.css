@@ -3,7 +3,7 @@
 .gallery-section{
     min-height: 160vh;
     width: 100%;
-    background: linear-gradient(0deg, white,#020a1f, #020a1f, #020a1f);
+    background: linear-gradient(0deg, white,#000000, #000000, #000000);
     display: flex;
     flex-direction: column;
     justify-content: center;
